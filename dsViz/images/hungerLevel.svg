@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="772px" height="321px" viewBox="0 0 772 321" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>hungerLevel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" fill="#F3182B" x="0" y="0" width="62" height="33"></rect>
+        <text id="10" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="23.1386719" y="20">10</tspan>
+        </text>
+        <rect id="Rectangle" fill="#F5422F" x="0" y="32" width="62" height="33"></rect>
+        <rect id="Rectangle" fill="#FB933B" x="0" y="64" width="62" height="33"></rect>
+        <rect id="Rectangle" fill="#DFCE50" x="0" y="96" width="62" height="33"></rect>
+        <text id="7" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="116">7</tspan>
+        </text>
+        <rect id="Rectangle" fill="#D8DF50" x="0" y="128" width="62" height="33"></rect>
+        <text id="6" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="148">6</tspan>
+        </text>
+        <rect id="Rectangle" fill="#B2D354" x="0" y="160" width="62" height="33"></rect>
+        <text id="5" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="180">5</tspan>
+        </text>
+        <rect id="Rectangle" fill="#C3D752" x="0" y="192" width="62" height="33"></rect>
+        <text id="4" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="212">4</tspan>
+        </text>
+        <rect id="Rectangle" fill="#E0E151" x="0" y="224" width="62" height="33"></rect>
+        <text id="3" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="244">3</tspan>
+        </text>
+        <rect id="Rectangle" fill="#F97C38" x="0" y="256" width="62" height="33"></rect>
+        <text id="2" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="276">2</tspan>
+        </text>
+        <rect id="Rectangle" fill="#F3182B" x="0" y="288" width="62" height="33"></rect>
+        <text id="1" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="309">1</tspan>
+        </text>
+        <text id="9" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="54">9</tspan>
+        </text>
+        <text id="8" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="27.0693359" y="84">8</tspan>
+        </text>
+        <text id="Thanksgiving-Day-ful" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="75.1875" y="22">Thanksgiving Day full. Not hungry at all. You never want to look at food again.</tspan>
+        </text>
+        <text id="Uncomfortably-full," font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="75.0756836" y="54">Uncomfortably full, bloated.</tspan>
+        </text>
+        <text id="Feeling-too-full,-a" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="75.1879883" y="86">Feeling too full, a few too many bites.</tspan>
+        </text>
+        <text id="You-are-feeling-full" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="76.9555664" y="118">You are feeling full. Stop eating or don’t start eating yet. </tspan>
+        </text>
+        <text id="You-are-comfortable" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="75.0405273" y="150">You are comfortable and can eat with control.</tspan>
+        </text>
+        <text id="You-feel-hungry-but" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="75.2045898" y="214">You feel hungry but signs and symptoms are manageable.</tspan>
+        </text>
+        <text id="You-are-hungry,-you" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="76.9057617" y="246">You are hungry, you feel a little low on energy and are slightly uncomfortable. </tspan>
+        </text>
+        <text id="You-feel-neutral-tho" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="76.9887695" y="182">You feel neutral though hunger is on the horizon. </tspan>
+        </text>
+        <text id="Starving,-you-stomac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="76.8798828" y="278">Starving, you stomach is growling. You are easily irritated and edgy. </tspan>
+        </text>
+        <text id="Empty.-Feeling-faint" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#000000">
+            <tspan x="76.987793" y="310">Empty. Feeling faint or sick because you are so hungry, as if you haven’t eaten for days. </tspan>
+        </text>
+        <path d="M583.5,97.4960309 L583.5,223.470588" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        <g id="Group" transform="translate(62.000000, 95.000000)" stroke="#979797" stroke-linecap="square">
+            <path d="M0.5,1.5 L26.5,1.5" id="Line-3"></path>
+            <path d="M33.5,1.5 L59.5,1.5" id="Line-3"></path>
+            <path d="M66.5,1.5 L92.5,1.5" id="Line-3"></path>
+            <path d="M99.5,1.5 L125.5,1.5" id="Line-3"></path>
+            <path d="M132.5,1.5 L158.5,1.5" id="Line-3"></path>
+            <path d="M165.5,1.5 L191.5,1.5" id="Line-3"></path>
+            <path d="M198.5,1.5 L224.5,1.5" id="Line-3"></path>
+            <path d="M231.5,1.5 L257.5,1.5" id="Line-3"></path>
+            <path d="M264.5,1.5 L290.5,1.5" id="Line-3"></path>
+            <path d="M297.5,1.5 L323.5,1.5" id="Line-3"></path>
+            <path d="M330.5,1.5 L356.5,1.5" id="Line-3"></path>
+            <path d="M363.5,1.5 L389.5,1.5" id="Line-3"></path>
+            <path d="M396.5,1.5 L422.5,1.5" id="Line-3"></path>
+            <path d="M429.5,1.5 L455.5,1.5" id="Line-3"></path>
+            <path d="M462.5,1.5 L488.5,1.5" id="Line-3"></path>
+            <path d="M495.5,1.5 L521.5,1.5" id="Line-3"></path>
+        </g>
+        <g id="Group" transform="translate(62.000000, 223.000000)" stroke="#979797" stroke-linecap="square">
+            <path d="M0.5,1.5 L26.5,1.5" id="Line-3"></path>
+            <path d="M33.5,1.5 L59.5,1.5" id="Line-3"></path>
+            <path d="M66.5,1.5 L92.5,1.5" id="Line-3"></path>
+            <path d="M99.5,1.5 L125.5,1.5" id="Line-3"></path>
+            <path d="M132.5,1.5 L158.5,1.5" id="Line-3"></path>
+            <path d="M165.5,1.5 L191.5,1.5" id="Line-3"></path>
+            <path d="M198.5,1.5 L224.5,1.5" id="Line-3"></path>
+            <path d="M231.5,1.5 L257.5,1.5" id="Line-3"></path>
+            <path d="M264.5,1.5 L290.5,1.5" id="Line-3"></path>
+            <path d="M297.5,1.5 L323.5,1.5" id="Line-3"></path>
+            <path d="M330.5,1.5 L356.5,1.5" id="Line-3"></path>
+            <path d="M363.5,1.5 L389.5,1.5" id="Line-3"></path>
+            <path d="M396.5,1.5 L422.5,1.5" id="Line-3"></path>
+            <path d="M429.5,1.5 L455.5,1.5" id="Line-3"></path>
+            <path d="M462.5,1.5 L488.5,1.5" id="Line-3"></path>
+            <path d="M495.5,1.5 L521.5,1.5" id="Line-3"></path>
+        </g>
+        <text id="Try-to-stay-within-t" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" fill="#000000">
+            <tspan x="618.716797" y="154">Try to stay within </tspan>
+            <tspan x="629.756836" y="178">the level 4 to 7</tspan>
+        </text>
+    </g>
+</svg>

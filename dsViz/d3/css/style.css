@@ -1,0 +1,235 @@
+.wrapCustom{
+  width: 100%;
+  min-height: 1050px;
+  margin-top: 20px;
+  margin-left:30px;
+}
+
+.inner {
+  width: 100%;
+  min-height: 1050px;
+}
+
+.axis text, .axisScatter text, .axisLine-x text,.axisLine-y text {
+  font-size: 10px;
+}
+
+.axis line{
+  stroke: grey;
+}
+
+.axis path{
+  stroke: grey;
+  /*stroke: #ddd;*/
+  stroke-width: 2;
+}
+
+.svgFill{
+  background-color: snow;
+}
+
+.label, .labelNew, .legend{
+  font-size: 14px;
+}
+
+/*path=>axis*/
+.axisScatter path{
+  visibility: hidden;
+}
+
+/*line => tick*/
+.axisScatter line{
+  fill: none;
+  stroke: grey;
+}
+
+/*.axisScatter-y .tick{
+  visibility: hidden;
+}*/
+
+.axisLine-y .tick line{
+  opacity: 0.1;
+  stroke:0.5;
+  stroke-dasharray: 1px 1px;
+}
+
+section {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+div#one {
+    width: 600px;
+    height: auto;
+    float: left;
+    /*background-color: red;*/
+}
+div#two {
+    margin-left: 630px;
+    width: 600px;
+    height: auto;
+    /*background-color: orange;*/
+}
+
+#linePlot{
+  margin-top:-20px;
+}
+.axisLine-y path{
+  visibility: hidden;
+}
+.area {
+  fill: #eaeaea;
+  opacity: 0.5;
+}
+.hungerBeforeLine {
+  stroke: #c51b8a;
+  stroke-width: 2px;
+  fill: none;
+}
+.hungerAfterLine {
+  stroke: #636363;
+  stroke-width: 2px;
+  fill: none;
+}
+
+#headerText{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title{
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  visibility: hidden;
+  margin-bottom: -2px;
+}
+
+.titleHunger{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 220px;
+}
+
+#username_select {
+  width: 185px;
+}
+
+.adjacent {
+  display: inline-block;
+  /*width: 49%;*/
+  vertical-align: top;
+  margin-left: 20px;
+}
+
+button{
+  height: 43px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.tooltip {
+  position: absolute;
+  font-size: 14px;
+  /*width: 165px;*/
+  /*height: auto;*/
+  pointer-events: none;
+  background-color: white;
+  /*background-color: lightsteelblue;*/
+  /*padding: 8px;
+  border-radius: 15px;*/
+
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.tooltipHunger{
+  position: absolute;
+  font-size: 14px;
+  width: auto;
+  height: auto;
+  pointer-events: none;
+  background-color: white;
+  /*background-color: lightsteelblue;*/
+  /*padding: 8px;
+  border-radius: 15px;*/
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 10px;
+}
+
+.tooltipImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 149px;
+}
+
+.dropdown{
+width: 25%;
+margin-left: 120px;
+margin-bottom: 30px;
+}
+
+#imageDiv{
+  /*background-color: red;*/
+  margin-left: 10%;
+  margin-bottom: -30px;
+  opacity: 0;
+
+}
+
+.icon{
+  width: 60px;
+  height: 60px;
+  vertical-align: top;
+  border-radius: 50%;
+  margin-left:15px;
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
+
+figure{
+  display: inline-block;
+}
+
+figcaption{
+  font-size: 10px;
+  font-weight: bold;
+  margin-left:15px;
+  text-align: center;
+  filter: grayscale(100%);
+  opacity: 0.2;
+}
+
+#viz{
+  margin-top:15px;
+}
+
+.helpText{
+  text-align: right;
+  color: darkgrey;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-top:-20px;
+  margin-right: 30px;
+}
+
+.about {
+  width: 80%;
+  margin: 1% 5%;
+}
+
+.aboutTitle {
+  text-transform:uppercase;
+  font-size: 1.2em;
+  padding: 10px 0px;
+  font-weight:bold;
+  border-bottom: 1px solid #858585;
+}

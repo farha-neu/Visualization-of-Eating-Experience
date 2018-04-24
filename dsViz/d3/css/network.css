@@ -1,0 +1,30 @@
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important
+}
+
+.canvas{
+  width:100%;
+  min-height:650px;
+  padding-top: 5%;
+  margin-left: -2%;
+}
+
+/* tooltip */
+.container{
+  margin-top: 2%;
+  position:relative;
+}
+
+.custom-tooltip{
+  position:absolute;
+  /*width:220px;*/
+  min-height:50px;
+  padding:10px 5px;
+  background:white;
+  box-shadow: 0 2px 2px 0px rgba(0,0,0,.1);
+  top:0;
+  left:0;
+  /*visibility:hidden;*/
+  /*opacity: 1;*/
+}

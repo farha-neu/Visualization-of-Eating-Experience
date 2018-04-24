@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<meta charset="utf-8">
+<!--
+Urban by TEMPLATED
+templated.co @templatedco
+Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+	<title>Eating Experience Vis</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="d3/css/style.css" />
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body class="subpage1">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="logo"><a href="index.html">Home</a></div>
+		<a href="#menu">Menu</a>
+	</header>
+
+	<!-- Nav -->
+	<nav id="menu">
+		<ul class="links">
+			<li><a href="index.html">Home</a></li>
+			<!-- <li><a href="motivation.html">Motivation</a></li>
+			<li><a href="generic.html">Data</a></li>
+			<li><a href="generic.html">Task Analysis</a></li>
+			<li><a href="generic.html">Design Process</a></li> -->
+			<li><a href="visualization.html">Final Visualization-1</a></li>
+			<li><a href="parallel.html">Final Visualization-2</a></li>
+		</ul>
+	</nav>
+
+	<!-- Main -->
+	<div id="main">
+		<!-- Section -->
+		<section class="wrapCustom">
+			<div class="inner">
+				<header class="align-center">
+					<h1>Visualizing Eating Experience</h1>
+				</header>
+
+
+				<div class="about" id="Intro">
+					<div class="aboutTitle">How to Use the Visualization</div>
+					 <ul>
+					  <li>Select a username from the dropdown menu to view the eating pattern of that user.</li>
+					  <li>To focus on eating habit within a specific time range, select that time range by dragging and extending mouse on the bottom scatter plot. </li>
+					  <li>Mouseover on any circle of first scatterplot to view details of meal.</li>
+					  <li>Click on a circle to view visualization of hunger level, and eating satisfaction with mood for a specific user and meal type.</li>
+					  <li> Mouseover on each circle of line graph to view hunger level before and after meal, and mood. The grey shaded area represents the ideal level of hunger.</li>
+			          <li> Mouseover on each bar of bar plot to view mood, company, and eating effort.</li>
+			          <li> Click on RESET button anytime to return to overview.</li>
+			          <li> Click on COMPARE button to view another visualization to understand an individual's eating pattern.</li>
+					</ul> 
+				</div
+
+				<!-- dropdown with reset -->
+				<section>
+					<div id="one">
+						<div class="dropdown adjacent">
+							<select id="username_select" data-default-value="default"></select>
+						</div>
+						<div id="reset" class="adjacent">
+							<button type="button">RESET</button>
+						</div>
+						<div id="compare" class="adjacent">
+							<a href="parallel.html" target="_blank"><button type="button">COMPARE</button></a>
+						</div>
+						<!-- <div id="compare" class="adjacent">
+						<a href="parallel.html" class="btn" role="button">COMPARE</a>
+					</div> -->
+					<div id="largeScatter"></div>
+					<div id="smallScatter"></div>
+					<p class="helpText">Select a time range to brush</p>
+				</div>
+				<div id="two">
+					<p id="headerText"></p>
+
+					<div id="linePlot"><p class="title">Hunger level</p></div>
+
+					<div id="viz">
+						<p class="title">Food satisfaction, mood and eating effort</p>
+						<div id="imageDiv">
+							<figure>
+								<img class="icon" id="homemade" src="images/Home.jpg">
+								<figcaption class="icon" id="caphomemade">Homemade</figcaption>
+							</figure>
+							<figure>
+								<img class="icon" id="leftover" src="images/leftover2.jpg">
+								<figcaption class="icon" id="capleftover">Leftover</figcaption>
+							</figure>
+							<figure>
+								<img class="icon" id="bought" src="images/store.gif">
+								<figcaption class="icon" id="capbought">Bought</figcaption>
+							</figure>
+							<figure>
+								<img class="icon" id="mealforfree" src="images/free.png">
+								<figcaption class="icon" id="capmealforfree">Free Meal</figcaption>
+							</figure>
+							<figure>
+								<img class="icon" id="officefood" src="images/office.png">
+								<figcaption class="icon" id="capofficefood">Office Food</figcaption>
+							</figure>
+							<figure>
+								<img class="icon" id="readytoeat" src="images/ready.png">
+								<figcaption class="icon" id="capreadytoeat">Ready to eat</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+		<!-- </div> -->
+
+
+
+		<div class="about" id="HowToRead" style="clear: both">
+			<div class="aboutTitle">About the Visualization</div>
+					<p style="text-align: justify;">The scatterplot provides an overview of regular eating pattern of
+							all participants. Hunger level visualization will help users identify whether
+							their hunger level is maintained in ideal zone.
+							Visualization of food satisfaction with mood will enable a user
+							to know about external (e.g. eating effort) and
+							internal (e.g. mood, company)
+							factors that might influence their satisfaction out of food. </p>
+			<br>
+			<p class="titleHunger">The Hunger Scale</p>
+				<object id="hungerLevelSVG" data="images/hungerLevel.svg" type="image/svg+xml"></object>
+	    </div>
+	</div>
+
+
+	</section>
+</div>
+
+	<!-- Footer -->
+	<footer id="footer" style="clear: both">
+		<div class="copyright">
+			<ul class="icons">
+				<!-- 	<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li> -->
+				<li><a href="https://github.ccs.neu.edu/kimani15/CS7295-Viz-Project-" class="icon fa-github"><span class="label">Github</span></a></li>
+			</ul>
+			<p>&copy; DS-Viz 2018. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="d3/scatter-plot.js"></script>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type="text/javascript"></script>
+
+
+
+</body>
+</html>

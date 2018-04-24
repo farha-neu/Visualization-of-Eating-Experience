@@ -1,0 +1,12 @@
+# Image Credits
+
+Home page banner courtesy of Unsplash (https://unsplash.com).
+
+# Template credit:
+https://templated.co/
+
+#d3 credit:
+http://bl.ocks.org/feyderm/6bdbc74236c27a843db633981ad22c1b
+http://bl.ocks.org/d3noob/38744a17f9c0141bcd04
+https://bl.ocks.org/jadiehm/0d341b74bef30889c893a3b14cbeb974
+

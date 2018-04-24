@@ -1,0 +1,19 @@
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family:Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important
+}
+
+#parallelIntro {
+  margin: 2% 10%;
+}
+
+.canvas{
+  width:100%;
+  min-height:650px;
+  /*padding-top: 5%;
+  margin-left: -2%;*/
+}
+
+.axisLabel {
+  font-size: 0.7em;
+}
