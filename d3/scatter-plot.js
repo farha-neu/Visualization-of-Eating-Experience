@@ -336,7 +336,7 @@ function createLinkedScatter(d_brushed) {
                                    html = html+"<b>Food: </b>"+d.food+"<br><b>Weather: </b>"+d.weather+"<br>"+
                                    "<b>Distraction: </b>"+d.distraction+"<br>"+
                                    "<b>Company: </b>"+d.company;
-
+				console.log(html);
                                 tooltip.html(html)
                                    // needs absolute positioning....to be corrected
                                     .style("top", (d3.event.pageY - 10) + "px")
